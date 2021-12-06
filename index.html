@@ -2,133 +2,144 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <title>Charlie's Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f89f8b318d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>
-            <a href="/">Charlie</a>
-        </h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <section class="hero">
-    </section>
-    <main class="content">
-        <div>
-            <section class="about-me" id="about-me">
-                <h2>About Me</h2>
-                <p>
-                    I am a new up and coming developer from Paterson, NJ. I attend the coding boot camp of Rutgers
-                    university.
-                    I have a couple projects that certainly express my quality of coding. Looking to obtain an entry
-                    position as a full stack developer. I have experience with HTML, CSS, JavaScript, python, and
-                    GitHub.
-                </p>
-            </section>
+    <main>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper cyan darken-1">
+                    <a href="#!" class="brand-logo">Charlie</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-        <div>
-            <section class="work" id="work">
-                <h2>Work</h2>
-                <div class="main-card">
-                    <a href="https://djamz919.github.io/DollarFlights/">
 
-                        <span>
-                            <h3>Dollar Flights</h3>
-                            <p>HTML, CSS, JavaScript</p>
-                        </span>
-
-                    </a>
+        <div id="about-me">
+            <div class="row">
+                <div class="col s6">
+                    <h4>About Me</h4>
+                    <p>I am a new up and coming developer from Paterson, NJ. I attend the coding boot camp of Rutgers
+                        university.
+                        I have a couple projects that certainly express my quality of coding. Looking to obtain an entry
+                        position as a full stack developer. I have experience with HTML, CSS, JavaScript, SQL, and
+                        GitHub.
+                    </p>
                 </div>
-                <div class="sec-card">
-                    <a href="https://ccruz13.github.io/ch-3/">
-
-                        <h3>Password Simulator</h3>
-                        <p>JavaScript</p>
-
-                    </a>
+                <div class="col s6">
+                    <!-- Promo Content 1 goes here  IMAGE-->
                 </div>
-                <div class="third-card">
-                    <a href="https://github.com/Ccruz13/Run-Buddy">
-
-                        <h3>Run Buddy</h3>
-                        <p>HTML/CSS</p>
-
-                    </a>
-                </div>
-            </section>
-        </div>
-        <div>
-            <section class="credentials">
-
-                <h2>Education</h2>
-                <div class="education">
-                    <h3>Rutgers Coding Bootcamp</h3>
-                    <p class="date">Feb 2022</p>
-                    <p class="sub-title">Full Stack Development</p>
-                </div>
-
-            </section>
-            <div>
-                <section class="skills">
-                    <div>
-                        <h3>Front End</h3>
-                        <ul class="frontend">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>Python</li>
-                            <li>GitHub</li>
-
-                        </ul>
-                    </div>
-
-
-
-                    <div>
-                        <h3>Back End</h3>
-                        <ul>
-                            <li>Node.js</li>
-                            <li>Express</li>
-                            <li>SQL</li>
-                        </ul>
-                    </div>
-
-                </section>
             </div>
         </div>
-        <div>
-            <footer class="contact-me" id="contact-me">
-                <h2>Contact Me</h2>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="https://www.linkedin.com/in/charlie-cruz-a31ab2225">Linkin</a>
-                        </li>
-                        <li>
-                            <a href="email">charlie13cruz@icloud.com</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Ccruz13">GitHub</a>
-                        </li>
-                    </ul>
-                </nav>
-            </footer>
-        </div>
-    </main>
 
+        <div id="projects">
+            <div class="row">
+                <div class="col s12">
+                    <h4>Projects</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m12 m10 ">
+                    <div class="card horizontal padding: 20px">
+                        <div class="card-image">
+                            <img src="assets/DollarFlights.png">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <p>This is a project we used 3rd party api's to fetch airplane tickets and a currency
+                                    converter. The tools used to build this wensite were HTML, CSS, AND JavaScript.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://djamz919.github.io/DollarFlights/">Dollar Flights</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6 m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/NWA.png">
+                        </div>
+                        <div class="card-content">
+                            <p>A blog where users can create an account and post about how they are feeling or anything they may want to post about.
+                                Users can also comment on eachothers posts with positive words.
+                                Tools we used were JavaScript, Express, Node.js, Sequelize, Express-Sessions, and Handlebars.
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://never-walk-alone.herokuapp.com">Never Walk Alone</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col s6 m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/Password.png">
+
+                        </div>
+                        <div class="card-content">
+                            <p>This is a password generator that uses alerts to get information on what characters a user would like to use. 
+                                Then the JavaScript code would generate a password with the characters the user imputs.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://ccruz13.github.io/ch-3/">Password Generator</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row">
+                <div class="col s12">
+                    <h4>Skills</h4>
+                </div>
+                <div class="skills" id="skills">
+                    <i class="fab fa-html5 fa-7x"></i>
+                    <i class="fab fa-css3-alt fa-7x"></i>
+                    <i class="fab fa-js fa-7x"></i>
+                    <i class="fab fa-github fa-7x"></i>
+                    <i class="fab fa-node fa-7x"></i>
+                    <i class="fas fa-database fa-7x"></i>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row">
+                <div class="col s12">
+                    <h4>Contact Me</h4>
+                </div>
+                <div class="Contact-icons">
+                    <a href="https://www.linkedin.com/in/charlie-cruz-a31ab2225" title="linkin"><i
+                            class="fab fa-linkedin fa-3x"></i></a>
+                    <a href="mailto:charlie13cruz@icloud.com"><i class="fas fa-envelope-open-text fa-3x"></i></a>
+                    <a href="https://github.com/Ccruz13" title="GitHub"><i class="fab fa-github fa-3x"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
+
+</html>
